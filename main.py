@@ -1,6 +1,6 @@
 import random
 
-QUESTIONS_COUNT = 100
+QUESTIONS_COUNT = 6
 correct_answers_count = 0
 all_answers_count = 0
 
@@ -58,6 +58,7 @@ while all_answers_count < QUESTIONS_COUNT:
 
     all_answers_count += 1
     print(f"Question {all_answers_count} of {QUESTIONS_COUNT}")
+    print("_________________________________________________")
 
 print(f"You have {correct_answers_count} correct answers")
 print(f"You have {int(correct_answers_count / all_answers_count * 100)} %")
