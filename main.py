@@ -1,4 +1,23 @@
 import random
+import tkinter as tk
+
+#---tkinter star testing
+master = tk.Tk()
+tk.Label(master, text="First Name").grid(row=0)
+tk.Label(master, text="Last Name").grid(row=2)
+
+e1 = tk.Entry(master)
+# e2 = tk.Entry(master)
+
+tk.Button(master, text='Quit')
+tk.Button(master, text='Show').grid(row=1, column=0)
+
+e1.grid(row=0, column=2)
+
+
+master.mainloop()
+
+#---tkinter end testing
 
 QUESTIONS_COUNT = 6
 correct_answers_count = 0
