@@ -10,3 +10,5 @@
 3. Create interface by tkinter.
 4. Color output.
 
+[Demo](https://replit.com/@IvoPetkov/mathquiz#main.py)
+
