@@ -10,5 +10,7 @@
 3. Create interface by tkinter.
 4. Color output.
 
+![Math Quez](math_quiz.JPG "Math Quez")
+
 [Demo](https://replit.com/@IvoPetkov/mathquiz#main.py)
 
