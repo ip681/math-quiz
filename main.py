@@ -1,19 +1,4 @@
 import random
-import tkinter as tk
-
-#---tkinter star testing
-# master = tk.Tk()
-# tk.Label(master, text="Condition").grid(row=0)
-# tk.Button(master, text='Submit').grid(row=1, column=0)
-# tk.Label(master, text="Answer").grid(row=2)
-#
-# e1 = tk.Entry(master)
-#
-# e1.grid(row=0, column=1)
-#
-# master.mainloop()
-
-#---tkinter end testing
 
 QUESTIONS_COUNT = 6
 correct_answers_count = 0
